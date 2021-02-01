@@ -1,0 +1,47 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin-left: 40px;
+  margin-right: 40px;
+  min-height: 100%;
+}
+
+.figureimage {
+  width: 500px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+#figuresowned {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  font-size: 20px;
+}
+
+#figureimagevader {
+  width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
