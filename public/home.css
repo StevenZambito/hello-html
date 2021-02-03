@@ -1,3 +1,6 @@
+@import url('https://necolas.github.io/normalize.css/latest/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -7,41 +10,89 @@ html {
 }
 
 body {
-  margin-left: 40px;
-  margin-right: 40px;
   min-height: 100%;
+  background-color: rgb(236, 50, 61);
+  font-family: 'Acme', sans-serif;
+  font-size: 1.2rem;
 }
 
-.figureimage {
-  width: 500px;
-  padding-top: 40px;
-  padding-bottom: 10px;
+#header {
+  border: solid 1rem gold;
+  font-family: 'Big Shoulders Display';
+  font-size: 1.9rem;
+  padding: 1rem;
+  background-color: rgb(236, 50, 61);
 }
 
-#figuresowned {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#header > h1 {
+  color: white;
 }
 
-li {
-  font-size: 20px;
-}
-
-#figureimagevader {
-  width: 500px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-button {
+#header-button {
   padding: 5px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  letter-spacing: 0.1rem;
 }
 
 button:hover {
   cursor: pointer;
+  transform: scale(1.05);
+}
+
+#header-title {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.toys-description {
+  padding: 2rem;
+  background-color: rgb(240, 240, 240);
+  margin: 5rem;
+}
+
+.figures-owned {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: rgb(240, 240, 240);
+  margin: 5rem;
+}
+
+.toys-description h2 {
+  text-align: center;
 }
 
 a {
   text-decoration: none;
+}
+
+#figureimagevader {
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#figureimagevader:hover {
+  box-shadow: 0 0 5px 5px gold;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.figureimage {
+  width: 500px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.figureimage:hover {
+  box-shadow: 0 0 5px 5px gold;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#footer {
+  font-size: 0.9rem;
+  text-align-last: center;
 }

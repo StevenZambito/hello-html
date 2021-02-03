@@ -1,3 +1,6 @@
+@import url('https://necolas.github.io/normalize.css/latest/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -7,17 +10,38 @@ html {
 }
 
 body {
-  margin-left: 40px;
-  margin-right: 40px;
   min-height: 100%;
+  background-color: rgb(236, 50, 61);
 }
 
-button {
+#header-button {
   padding: 5px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  letter-spacing: 0.1rem;
+  font-family: 'Big Shoulders Display';
+}
+
+#header {
+  border: solid 1rem gold;
+  font-family: 'Big Shoulders Display';
+  font-size: 1.9rem;
+  padding: 1rem;
+  background-color: rgb(236, 50, 61);
+}
+
+#header > h1 {
+  color: white;
+}
+
+#header-title {
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 button:hover {
   cursor: pointer;
+  transform: scale(1.05);
 }
 
 a {
