@@ -51,6 +51,11 @@ button:hover {
   margin: 5rem;
 }
 
+.titles {
+  border: solid black;
+  padding: 1rem;
+}
+
 .figures-owned {
   display: flex;
   flex-direction: column;
